@@ -1,4 +1,10 @@
 #include <iostream>
+#include <fstream>
+#include <string>
+#include <sstream>
+#include <vector>
+
+#include "NeuralNetworks.h"
 using namespace std;
 
 
