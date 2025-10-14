@@ -3,10 +3,17 @@
 #include <vector>
 using namespace std;
 
+void ReadCSVFile(){
+  int TrainingSetSize = 520;
+  int TestSetSize = 49;
+  cout << "Splitting into Training and Testing with a " << 
+};
+
+
+
 struct Case {
-  int diagnosis; // 1 for malignant, 0 for benign. We swap this data as it is originally M and B
+  int speed; // Trying to predict speed based off a number of variables
   vector<double> features; // stuff in a double vector to make it easier to work with
-  // minor change to test commits
 };
 
 #endif
